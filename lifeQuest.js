@@ -20,6 +20,52 @@ Degrade the level -> If neither of the mainObjective & DailySubmissions is compl
 */
 
 var level = prompt("What level is this?")
-print(`&level`);
+console.log(level);
 var mObj = prompt("What is the main Objective that you want to set for this level")
-print(`&mObj`);
+console.log(mObj);
+
+var dailySubMissions = [
+    {
+        type : "Coding",
+        time : "20 minutes",
+        done : true,
+    },
+
+    {
+        type : "Running",
+        distance : "1 km",
+        done : true,
+    },
+
+    {
+        type : "Music",
+        time : "20 minutes",
+        done : true,
+    },
+
+    {
+        type : "Reading",
+        time : "20 minutes",
+        done : true,
+    },
+
+    {
+        type : "Journal",
+        done : true,
+    },
+
+    {
+        type : "Freeletics : God Workout",
+        done : true,
+    },
+
+    {
+        type : "Language : Korean",
+        done : true,
+    },
+
+    {
+        type : "Vocabulary : 3 Words",
+        done : true,
+    },
+];
